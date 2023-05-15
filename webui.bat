@@ -3,6 +3,8 @@
 if not defined PYTHON (set PYTHON=python)
 if not defined VENV_DIR (set "VENV_DIR=%~dp0%venv")
 
+@REM https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/9150
+set COMMANDLINE_ARGS=--no-gradio-queue
 
 set ERROR_REPORTING=FALSE
 
