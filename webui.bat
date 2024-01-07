@@ -9,7 +9,10 @@ if defined GIT (set "GIT_PYTHON_GIT_EXECUTABLE=%GIT%")
 if not defined VENV_DIR (set "VENV_DIR=%~dp0%venv")
 
 @REM https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/9150
-@REM set COMMANDLINE_ARGS=--no-gradio-queue
+@REM Throw Something went wrong Expecting value: line 1 column 1 (char 0) Error when using proxy server
+@REM Close proxy server or add this arguments;
+set COMMANDLINE_ARGS=--no-gradio-queue
+@REM python launch.py --no-gradio-queu
 
 set SD_WEBUI_RESTART=tmp/restart
 set ERROR_REPORTING=FALSE
