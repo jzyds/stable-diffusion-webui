@@ -11,8 +11,17 @@ if not defined VENV_DIR (set "VENV_DIR=%~dp0%venv")
 @REM https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/9150
 @REM Throw Something went wrong Expecting value: line 1 column 1 (char 0) Error when using proxy server
 @REM Close proxy server or add this arguments;
-set COMMANDLINE_ARGS=--no-gradio-queue
+@REM set COMMANDLINE_ARGS=--no-gradio-queue
 @REM python launch.py --no-gradio-queu
+
+@REM PROXY SETTING
+@REM set http_proxy=http://127.0.0.1:52061
+@REM set https_proxy=http://127.0.0.1:52061
+@REM set no_proxy="localhost, 127.0.0.1, ::1"
+
+@REM Power Shell
+@REM $Env:http_proxy="http://127.0.0.1:52061";$Env:https_proxy="http://127.0.0.1:52061"
+@REM $Env:no_proxy="localhost, 127.0.0.1, ::1"
 
 set SD_WEBUI_RESTART=tmp/restart
 set ERROR_REPORTING=FALSE
