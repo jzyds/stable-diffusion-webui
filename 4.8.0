@@ -2,8 +2,8 @@ Looking in indexes: https://mirrors.aliyun.com/pypi/simple
 Requirement already satisfied: opencv-python in n:\projects\repository\machine_learning\stable-diffusion-webui\venv\lib\site-packages (4.7.0.72)
 Collecting opencv-python
   Downloading https://mirrors.aliyun.com/pypi/packages/c7/ec/9dabb6a9abfdebb3c45b0cc52dec901caafef2b2c7e7d6a839ed86d81e91/opencv_python-4.9.0.80-cp37-abi3-win_amd64.whl (38.6 MB)
-     -------------------------------------- 38.6/38.6 MB 241.4 kB/s eta 0:00:00
-Requirement already satisfied: numpy>=1.21.2 in n:\projects\repository\machine_learning\stable-diffusion-webui\venv\lib\site-packages (from opencv-python) (1.23.5)
+     ---------------------------------------- 38.6/38.6 MB 5.5 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.21.2 in n:\projects\repository\machine_learning\stable-diffusion-webui\venv\lib\site-packages (from opencv-python) (1.26.2)
 Installing collected packages: opencv-python
   Attempting uninstall: opencv-python
     Found existing installation: opencv-python 4.7.0.72
